@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "631467705537",
+    "firebase_url": "https://rfid-tag-authentication-default-rtdb.firebaseio.com",
+    "project_id": "rfid-tag-authentication",
+    "storage_bucket": "rfid-tag-authentication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631467705537:android:01d487ab418c53df9f4040",
+        "android_client_info": {
+          "package_name": "com.example.rfidmonitoringapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631467705537-8i8lth1999jmqsc0tbb400omraalheb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdagBYAn1rZc_TkSbZitXKtCtiVaMHYrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631467705537-8i8lth1999jmqsc0tbb400omraalheb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

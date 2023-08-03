@@ -1,0 +1,2 @@
+rootProject.name = "Rfid Monitoring App"
+include ':app'

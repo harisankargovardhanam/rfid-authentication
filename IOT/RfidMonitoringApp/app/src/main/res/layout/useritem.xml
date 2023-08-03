@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/customlayour"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tag"
+        android:layout_width="202dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:text=""
+        android:textSize="12pt"
+        app:layout_constraintBottom_toTopOf="@+id/time"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/usertype"
+        android:layout_width="155dp"
+        android:layout_height="86dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:text=""
+        android:textSize="10pt"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tag"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="235dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="4dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="10pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/usertype" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
